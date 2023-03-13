@@ -10,4 +10,4 @@ Universal Translation Program
 ~~~~
 ![Alt text](screenshot/screenshot.png "a title")
 
-### Version Aplha
+### Version for Windows 10

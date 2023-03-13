@@ -4,7 +4,7 @@ from time import sleep
 from googletrans import Translator
 
 app = Tk()
-app.overrideredirect(False)
+app.overrideredirect(True)
 app.wm_attributes('-topmost', False)
 app.wm_attributes('-disabled', False)
 app.wm_attributes('-transparentcolor', 'white')

@@ -3,7 +3,10 @@
 ~~~~
 Universal Translation Program
 ~~~~
-## Used the google translate api
+## Tortuga Translate is a GUI creation with Tkinter and Canvas
+
+
+### Used the google translate api
 
 ~~~~
     translates language to PTBR

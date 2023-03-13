@@ -4,7 +4,7 @@ from time import sleep
 from googletrans import Translator
 
 app = Tk()
-app.overrideredirect(True)
+app.overrideredirect(False)
 app.wm_attributes('-topmost', False)
 app.wm_attributes('-disabled', False)
 app.wm_attributes('-transparentcolor', 'white')
@@ -14,16 +14,16 @@ app.geometry('756x560')
 
 msg = StringVar()
 
-
+# Quit Software
 def quitSoftware(event):
     sleep(0.2)
     app.destroy()
 
-
+# Button Translat
 def button_translat(event):
     translat(msg.get())
 
-
+# Api google
 def translat(txt):
 
     """Used version pip3 install googletrans==3.1.0a0"""
@@ -53,7 +53,6 @@ buttonTranslate = canvas.create_image(400, 250, image=buttonTranslateImg)
 canvas.tag_bind(buttonTranslate, '<Button-1>', button_translat)
 
 # Entry
-
 entryImg = ImageTk.PhotoImage(Image.open('img/Entry.png'))
 entryIm = canvas.create_image(400, 100, image=entryImg)
 entry = Entry(

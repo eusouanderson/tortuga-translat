@@ -11,6 +11,5 @@ Universal Translation Program
 ~~~~
     translates language to PTBR
 ~~~~
-![Alt text](screenshot/screenshot.png "a title")
 
 ### Version for Windows 10

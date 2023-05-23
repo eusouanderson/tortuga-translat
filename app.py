@@ -2,7 +2,7 @@ from tkinter import *
 from PIL import ImageTk, Image
 from time import sleep
 from googletrans import Translator
-
+import tkinter as tk 
 app = Tk()
 app.overrideredirect(False)
 app.title('Tortuga Translat')
@@ -43,6 +43,7 @@ bg = canvas.create_image(0, 0, image=bgImg, anchor=NW)
 buttonExImg = ImageTk.PhotoImage(Image.open('img/ButtonExit.png'))
 buttonExit = canvas.create_image(50, 500, image=buttonExImg)
 canvas.tag_bind(buttonExit, '<Button-1>', quitSoftware)
+
 
 # Button Translate
 buttonTranslateImg = ImageTk.PhotoImage(Image.open('img/ButtonTranslate.png'))

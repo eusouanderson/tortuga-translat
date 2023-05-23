@@ -41,7 +41,7 @@ no diretorio :
 
 ## Instruções
 
-No input digite o texto que gostaria de traduzir e clique no butão translate .
+No input digite o texto que gostaria de traduzir e clique no botão translate .
 
 
 <p align="center">
